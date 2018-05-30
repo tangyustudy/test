@@ -1,0 +1,291 @@
+	.regsiter_container{
+		height: 100vh;
+		width: 100%;
+		background: url('../..//assets/superMarket_bg@2x.png') no-repeat ;
+		background-size:cover;
+	}
+
+	.regsiter_container_outer{
+		height: 10.2rem;
+		width: 7.2rem;
+		position:absolute;
+		left:50%;
+		margin-left:-3.6rem;
+		margin-top:1.58rem;
+		background: url('../../assets/regsiter_bg@2x.png') no-repeat;
+		background-size:cover;
+
+	}
+
+	.Login_container_outer{
+		height: 8.64rem;
+		width: 7.2rem;
+		position:absolute;
+		left:50%;
+		margin-left:-3.6rem;
+		margin-top:1.58rem;
+		background: url('../../assets/Login_bg@2x.png') no-repeat;
+		background-size:cover;
+
+	}
+
+	.regsiter_container_inner{
+		height: 9.41rem;
+		width: 5.11rem;
+		margin:  0 auto;
+		margin-top:0.7rem;
+
+	}
+	.regsiter_container_inner__item{
+		height: 1.33rem;
+		width: 4.04rem;
+		margin: 0 auto;
+		margin-top:0.46rem;
+	}
+	
+
+	.regsiter_container_inner__item span{
+		display:inline;
+		height: 0.28rem;
+		line-height: 0.28rem;
+		margin-bottom:0.21rem;
+		color:#bf5c1f;
+	}
+	.input_style{
+		display: block;
+		height: 0.8rem;
+		width: 4rem;
+		margin-top:0.21rem;
+		border-radius: 0.1rem;
+		border: 0.04rem solid #e29b70;
+	}
+	
+	.input_style_checkedCode{
+		width: 2.11rem;
+		display: block;
+		position: absolute;
+	}
+
+
+.button_style{
+		font-family: '方正粗圆简体';
+		color:#ffe6b4;
+		background-size:cover;
+		
+}
+
+
+.button_style_confirm_regsiter{
+
+	height:0.8rem;
+	width: 2.6rem;
+	font-size:0.32rem;
+	position: absolute;
+	left: 50%;
+	padding: 0;
+	margin-top:0.99rem;
+	margin-left:-1.3rem;
+	background: url('../../assets/btn_comfirm@2x.png') no-repeat;
+	line-height: 0.8rem;
+	text-align: center;
+	background-size:cover;
+}
+
+.button_style_confirm_login{
+
+	height:0.84rem;
+	width: 2.62rem;
+	font-size:0.32rem;
+	position: absolute;
+	left: 50%;
+	padding: 0;
+	margin-top:0.99rem;
+	margin-left:-1.3rem;
+	background: url('../../assets/btn_comfirm@2x.png') no-repeat;
+	line-height: 0.8rem;
+	text-align: center;
+	background-size:cover;
+}
+
+.span_login{
+	display:block;
+	color:#706ac0;
+	margin: 0 auto;
+	height: 0.31rem;
+	width: 0.69rem;
+	margin-top:2.28rem;
+	font-size: 0.32rem;
+}
+
+input:focus{
+	border:  0.04rem solid #c16024;
+}
+
+.button_style_sendNum{
+		
+		position: absolute;
+		padding: 0;
+		margin-top:0.21rem;
+		right:1.53rem;
+		background:url('../../assets/btn_send@2x.png') no-repeat;
+		height: 0.8rem;
+		width: 1.83rem;
+		display: block;
+		background-size:cover;	
+	}
+
+.regsiter_container_inner__item span.span__warnning{
+	color: red;
+	margin-left: 0.5rem;
+}	
+
+@keyframes tabbar_animation
+{
+0%   {transform:scale(1);}
+100% {transform:scale(1.4);}
+}
+.link_animation{
+
+  animation: tabbar_animation 0.2s;
+
+}
+
+.button_style_click{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+.mine_wrap_container_outer{
+
+ 	height: 16.1rem;
+ 	width: 6.9rem;
+ 	margin: 0 auto;
+ 	background-color:#706ac0;
+ 	border-radius: 0.1rem;           
+}
+::-webkit-scrollbar {display: none;}
+
+.mine_wrap_container_inner{
+
+	height: 16rem;
+	width: 6.7rem;
+	float: left;
+	border-radius: 0.1rem;
+	margin: 0  auto;
+	margin-top:0.1rem;
+	margin-left:0.1rem;
+	background-color:#f4e2ac;
+	overflow: hidden;
+}
+.mine_user_info{
+	
+	height: 1.7rem;
+	width: 6.2rem;
+	margin: 0 auto;
+	margin-top:0.29rem;
+}
+
+.mine_split_line{
+
+	height: 0.02rem;
+	width: 6.2rem;
+	background-color:#e0b689;
+	margin: 0 auto;
+	margin-top:0.2rem;
+	margin-bottom:0.2rem;
+}
+
+
+.mine_user_info .mine_user_headImg{
+	height: 1.44rem;
+	width: 1.44rem;
+	float: left;
+	margin-left:0.1rem;
+	background-color:blue;
+}
+.mine_user_info .mine_user_wealth{
+	height: 1.18rem;
+	width:3rem;
+	float: left;
+	margin-left:0.2rem;
+}
+
+.mine_user_wealth_number{
+
+	margin-top:0.29rem;
+	height: 0.56rem;
+	width: 100%;
+
+}
+
+.mine_user_title_span{
+	height: 0.36rem;
+	line-height: 0.36rem;
+	font-size: 0.36rem;
+	color:#35176d;
+	/*-webkit-text-stroke: 0.01rem #35176d;*/
+}
+
+.mine_user_info .mine_user_wealth .mine_user_wealth_number p{
+
+	font-size: 0.24rem;
+	line-height: 0.28rem;
+	color: #bf5c1f;
+
+}
+
+.mine_user_info .mine_user_wallet{
+
+	height: 1.39rem;
+	width: 1.2rem;
+	background-color:orange;
+	float: left;
+	margin-left:0.2rem;	
+}
+.mine_user_pet_container{
+
+	height: 6.31rem;
+	width: 6.2rem;
+	margin:  0 auto;
+	overflow-x: hidden;
+}
+
+.mine_user_pet_container_list{
+	height: 5.58rem;
+	width: 6.2rem;
+	margin: 0 auto;
+	margin-top:0.33rem;
+	overflow:auto;
+}
+
+.mine_user_pet_container_item{
+	width: 2.0rem;
+	height: 2.8rem;
+	float: left;
+	margin-right:0.02rem;
+
+}
+
+.mine_user_pet_container_item p{
+	font-size: 0.24rem;
+	color: #bf5c1f;
+}
+
+.mine_user_pet_container_item_image{
+	height: 1.82rem;
+	width: 1.82rem;
+	
+}
+.mine_user_pet_container_item_descript{
+
+	height: 0.56rem;
+	width: 1.8rem;
+}
+
+
+
